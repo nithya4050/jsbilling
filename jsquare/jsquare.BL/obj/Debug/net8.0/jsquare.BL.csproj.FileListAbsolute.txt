@@ -1,0 +1,17 @@
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.csproj.AssemblyReference.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.AssemblyInfoInputs.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.AssemblyInfo.cs
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.csproj.CoreCompileInputs.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.BL.deps.json
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.BL.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.BL.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.DA.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.DA.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.csproj.Up2Date
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\refint\jsquare.BL.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\jsquare.BL.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\obj\Debug\net8.0\ref\jsquare.BL.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.Model.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.BL\bin\Debug\net8.0\jsquare.Model.pdb

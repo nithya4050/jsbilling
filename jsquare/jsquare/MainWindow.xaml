@@ -1,0 +1,275 @@
+﻿<Window x:Class="jsquare.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:jsquare"
+        xmlns:lang ="clr-namespace:jsquare.Properties"
+        mc:Ignorable="d"
+        Title="JSquare" Height="780" Width="850" Background="#F4F4F9" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        
+        <!-- Header -->
+        <TextBlock Text="{x:Static lang:Resources.jsquaretrainingportal}" FontSize="26"
+         Margin="0,30,0,0"  FontWeight="Bold" HorizontalAlignment="Center"
+         VerticalAlignment="Top"  Foreground="#3258a8"></TextBlock>
+
+        <!-- Content -->
+        <Border  CornerRadius="3" Padding="2" Width="400"
+        HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,70,0,0">
+
+
+            <TabControl FontWeight="SemiBold" Padding="10" Foreground="#3258a8">
+                         
+
+                <!-- Tab for login form -->
+                <TabItem x:Name="TabLogin" Header="{x:Static lang:Resources.login}">
+                    <StackPanel>
+                        <TextBlock Text="{x:Static lang:Resources.login}" FontSize="20" FontWeight="Bold" Margin="0,0,0,0" HorizontalAlignment="Center" Foreground="#3258a8" />
+
+
+                        <!-- Language Type Dropdown -->
+                        <TextBlock Text="{x:Static lang:Resources.language}" FontSize="14" FontWeight="SemiBold" Margin="30,0,0,20"  Foreground="#3258a8"/>
+
+
+                        <ComboBox x:Name="cmblanguage" Width="300" Height="35" Margin="30,0,50,0" HorizontalAlignment="Center" VerticalContentAlignment="Center" TabIndex="1">
+                            <ComboBoxItem Content="{x:Static lang:Resources.english}" />
+                            <ComboBoxItem Content="{x:Static lang:Resources.tamil}" />
+                            <ComboBoxItem Content="{x:Static lang:Resources.malayalam}" />
+                            <ComboBoxItem Content="{x:Static lang:Resources.Marathi}" />
+                            <ComboBoxItem Content="{x:Static lang:Resources.Telugu}" />
+
+                        </ComboBox>
+
+                        <!-- User Type Dropdown -->
+                        <TextBlock Text="{x:Static lang:Resources.employeetype}" FontSize="14" FontWeight="SemiBold" Margin="30,0,0,20"  Foreground="#3258a8"/>
+
+                        <ComboBox x:Name="cmbemployeetype" Width="300" Height="35" Margin="30,0,50,0" HorizontalAlignment="Center" VerticalContentAlignment="Center" TabIndex="1">
+                            <ComboBoxItem Content="{x:Static lang:Resources.staff}" />
+                            <ComboBoxItem Content="{x:Static lang:Resources.student}" />
+                        </ComboBox>
+
+                        <!-- Email -->
+                        <TextBlock Text="{x:Static lang:Resources.emailid}" FontSize="14" FontWeight="SemiBold" Margin="30,20,0,0"  Foreground="#3258a8"/>
+                        <TextBox x:Name="txtemail" Width="300" Height="35" Margin="30,0,50,0" HorizontalAlignment="Center" VerticalContentAlignment="Center" TabIndex="2"/>
+
+                        <!-- Password -->
+                        <TextBlock Text="{x:Static lang:Resources.password}" FontSize="14" FontWeight="SemiBold" Margin="30,20,0,0"  Foreground="#3258a8"/>
+                        <PasswordBox x:Name="txtpassword" Width="300" Height="35" VerticalContentAlignment="Center" Margin="30,0,50,0" BorderThickness="0,0,0,1" TabIndex="3"/>
+
+
+
+
+                        <Button x:Name="btnlogin" Content="{x:Static lang:Resources.login}" Width="300" Height="35" Background="#3258a8" Foreground="White" FontWeight="bold" Margin="0,40,20,20" Click="btnlogin_Click" IsDefault="True">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="10"></Setter>
+
+                                </Style>
+
+                            </Button.Resources>
+                        </Button>
+
+
+                    </StackPanel>
+                </TabItem>
+
+                <!-- Tab for Registration form -->
+
+
+                <TabItem x:Name="tabRegistration" Header="Registration" Padding="10" FontWeight="SemiBold" Foreground="#3258a8" Margin="-2,-1,-2,-1">
+
+
+                    <!--<StackPanel>
+
+                        <StackPanel>
+                            <Frame x:Name="mainframe" NavigationUIVisibility="Hidden" Height="500" Width="370">
+
+                                
+                            </Frame>
+                            
+
+                        </StackPanel>
+                    
+                       
+
+
+                        <StackPanel Orientation="Horizontal" Margin="40,10,0,0">
+                            <Button x:Name="btnone_Registration" Content="1" Click="btnone_Registration_Click" Height="25" Width="20" Background="#FFF" Foreground="Black" Padding="0" Margin="1"></Button>
+                            <Button x:Name="btnTwo_Registration" Content="2" Click="btnTwo_Registration_Click" Height="25" Width="20" Background="#FFF" Foreground="Black" Padding="0" Margin="1"></Button>
+                            <Button x:Name="btnThree_Registration" Content="3" Click="btnThree_Registration_Click" Height="25" Width="20" Background="#FFF" Foreground="Black" Padding="0" Margin="1"></Button>
+
+                        </StackPanel>
+
+
+                        <Button x:Name="btnRegistration" Content="{x:Static lang:Resources.registration}" Width="300" Height="35" Background="#3258a8" Foreground="White" FontWeight="bold" Margin="0,40,0,20" Click="btnRegistration_Click">
+                            <Button.Resources>
+                                <Style TargetType="Border">
+                                    <Setter Property="CornerRadius" Value="10"></Setter>
+                                </Style>
+
+                            </Button.Resources>
+                        </Button>
+                    </StackPanel>-->
+                    <TabControl x:Name="Regtabcontrol" FontWeight="SemiBold" Padding="10" Foreground="#3258a8">
+                        <TabItem x:Name="tabregistration1" Header="Login" Padding="10" FontWeight="SemiBold" Foreground="#3258a8" Margin="-2,-1,-2,-1">
+                            <StackPanel x:Name="Stack1_registration" Visibility="Visible">
+
+                                <!-- Header for registration form-->
+                                <TextBlock Text="{x:Static lang:Resources.registration}" FontSize="20"
+                                  Margin="20,0,0,20"  FontWeight="Bold" HorizontalAlignment="Center"
+                                  VerticalAlignment="Top"  Foreground="#3258a8" ></TextBlock>
+
+
+
+                                <TextBlock Text="{x:Static lang:Resources.employeetype}" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,20" Foreground="#3258a8"/>
+                                <!-- User Type Dropdown -->
+
+                                <ComboBox Width="300" Height="35" Margin="0,0,0,15" x:Name="cmbregemployeetype">
+                                    <ComboBoxItem Content="Staff" />
+                                    <ComboBoxItem Content="Student" />
+                                </ComboBox>
+
+                                <!-- Fullname -->
+                                <TextBlock Text="{x:Static lang:Resources.fullname}" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,5" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtRegFullname" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+                                <!--Reg Email -->
+                                <TextBlock Text="{x:Static lang:Resources.emailid}" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,5" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtRegEmail" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+
+                                <!-- Password -->
+                                <TextBlock Text="{x:Static lang:Resources.password}" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <PasswordBox x:Name="txtRegpassword" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" BorderThickness="0,0,0,1" />
+
+
+                                <!--Confirm Password -->
+                                <TextBlock Text="{x:Static lang:Resources.conformpassword}" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <PasswordBox x:Name="txtRegconfirmpassword" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,10" BorderThickness="0,0,0,1"/>
+
+
+                                <Button x:Name="btnnext1" Content="Next" Width="100" Height="35" Background="#3258a8" Foreground="White" FontWeight="bold" Margin="0,0,20,0" Click="btnnext1_Click" HorizontalAlignment="Right">
+                                    <Button.Resources>
+                                        <Style TargetType="Border">
+                                            <Setter Property="CornerRadius" Value="10"></Setter>
+                                        </Style>
+
+                                    </Button.Resources>
+                                </Button>
+
+                                <!--<TabControl FontWeight="SemiBold" Padding="10" Foreground="#3258a8">
+
+               <TabItem Header="1">
+                   <StackPanel>
+                       <TextBlock Text="{x:Static lang:Resources.employeetype}" FontSize="14" FontWeight="SemiBold" Margin="40,0,0,20"/>
+                      
+                       <ComboBox Width="300" Height="35" Margin="0,0,0,15">
+                           <ComboBoxItem Content="Staff" />
+                           <ComboBoxItem Content="Student" />
+                       </ComboBox>
+
+                     
+               <TabItem Header="2">
+                   <StackPanel>
+
+
+                   </StackPanel>
+               </TabItem>
+           </TabControl-->
+
+
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem x:Name="tabregistration2" Header="Personal/Professional" Padding="10" FontWeight="SemiBold" Foreground="#3258a8" Margin="-2,-1,-2,-1">
+                            <StackPanel x:Name="Stack2_registration" Visibility="visible">
+                                <!-- Header for registration form-->
+                                <TextBlock Text="{x:Static lang:Resources.registration}" FontSize="20"
+                      Margin="0,0,0,0"  FontWeight="Bold" HorizontalAlignment="Center"
+                         VerticalAlignment="Top"  Foreground="#3258a8" ></TextBlock>
+
+                                <TextBlock Text="Qualification" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,20" Foreground="#3258a8"/>
+                                <!-- User Type Dropdown -->
+
+                                <ComboBox x:Name="cmbqualification" Width="300" Height="35" Margin="0,0,0,15">
+                                    <ComboBoxItem Content="BE" />
+                                    <ComboBoxItem Content="Bsc" />
+                                    <ComboBoxItem Content="IT" />
+                                    <ComboBoxItem Content="Bsc" />
+                                    <ComboBoxItem Content="MCA" />
+                                    <ComboBoxItem Content="Msc" />
+                                </ComboBox>
+
+                                <!-- Yeaar of passed out -->
+                                <TextBlock Text="Year Of passed out" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,5" Foreground="#3258a8"/>
+                                <ComboBox x:Name="cmbyearofpassedout" Width="300" Height="35" Margin="0,0,0,15">
+                                    <ComboBoxItem Content="2024" />
+                                    <ComboBoxItem Content="2025" />
+                                    <ComboBoxItem Content="2026" />
+                                    <ComboBoxItem Content="2027" />
+                                    <ComboBoxItem Content="20028" />
+                                </ComboBox>
+                                <!--Experience -->
+                                <TextBlock Text="Experience" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,5" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtexperience" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+
+                                <!-- Date of birth -->
+                                <TextBlock Text="Date of Bith" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtdob" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15"/>
+
+
+                                <!--Age -->
+                                <TextBlock Text="Age" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtage" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+                                <Button x:Name="btnnext2" Content="Next" Width="100" Height="35" Background="#3258a8" Foreground="White" FontWeight="bold" Margin="0,0,20,0" Click="btnnext2_Click" HorizontalAlignment="Right">
+                                    <Button.Resources>
+                                        <Style TargetType="Border">
+                                            <Setter Property="CornerRadius" Value="10"></Setter>
+                                        </Style>
+
+                                    </Button.Resources>
+                                </Button>
+
+                            </StackPanel>
+                        </TabItem>
+                        <TabItem x:Name="tabregistration3" Header="Contact" Padding="10" FontWeight="SemiBold" Foreground="#3258a8" Margin="-2,-1,-2,-1">
+                            <StackPanel x:Name="Stack3_registration" Visibility="visible">
+                                <!-- Header for registration form-->
+                                <TextBlock x:Name="txtqualification" Text="{x:Static lang:Resources.registration}" FontSize="20"
+                                    Margin="0,0,0,0"  FontWeight="Bold" HorizontalAlignment="Center"
+                                    VerticalAlignment="Top"  Foreground="#3258a8" ></TextBlock>
+
+
+                                <!--Phone No -->
+                                <TextBlock Text="Phoneno" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtphoneNo" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+                                <!--Address -->
+                                <TextBlock Text="Address" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtaddress" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+                                <!--Address Proof -->
+                                <TextBlock Text="Upload Address Proof" FontSize="14" FontWeight="SemiBold" Margin="20,0,0,10" Foreground="#3258a8"/>
+                                <TextBox x:Name="txtaddressProf" Width="300" Height="35" VerticalContentAlignment="Center" Margin="0,0,0,15" />
+
+                                <Button x:Name="btnRegistration" Content="{x:Static lang:Resources.registration}" Width="300" Height="35" Background="#3258a8" Foreground="White" FontWeight="bold" Margin="0,40,20,20" Click="btnRegistration_Click">
+                                    <Button.Resources>
+                                        <Style TargetType="Border">
+                                            <Setter Property="CornerRadius" Value="10"></Setter>
+                                        </Style>
+
+                                    </Button.Resources>
+                                </Button>
+                            </StackPanel>
+                        </TabItem>
+
+                    </TabControl>
+                </TabItem>
+
+            </TabControl>
+
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,39 @@
+﻿<Application x:Class="jsquare.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:jsquare"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#3258a8"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+            <Setter Property="Width" Value="300"></Setter>
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            
+        </Style>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="12"></Setter>
+            <Setter Property="Padding" Value="5"></Setter>
+            
+            <!--<Setter Property="Foreground" Value="#3258a8"></Setter>-->
+
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="BorderBrush" Value="#3258a8"></Setter>
+            <Setter Property="BorderThickness" Value="0 0 0 1"></Setter>
+            <Setter Property="Background" Value="#fff"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="BorderBrush" Value="#3258a8"></Setter>
+            <Setter Property="BorderThickness" Value="0 0 0 1"></Setter>
+            <Setter Property="Background" Value="#fff"></Setter>
+            <Setter Property="FontWeight" Value="Normal"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

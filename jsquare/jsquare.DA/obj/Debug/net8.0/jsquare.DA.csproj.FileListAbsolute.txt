@@ -1,0 +1,12 @@
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.csproj.AssemblyReference.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.AssemblyInfoInputs.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.AssemblyInfo.cs
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.csproj.CoreCompileInputs.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\bin\Debug\net8.0\jsquare.DA.deps.json
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\bin\Debug\net8.0\jsquare.DA.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\bin\Debug\net8.0\jsquare.DA.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\refint\jsquare.DA.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\jsquare.DA.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.DA\obj\Debug\net8.0\ref\jsquare.DA.dll

@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\snafa\\source\\repos\\jsquare\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{91E52F6B-89ED-4084-85F4-4DA8597F6A57}|jsquare\\jsquare.csproj|c:\\users\\snafa\\source\\repos\\jsquare\\jsquare\\studentdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91E52F6B-89ED-4084-85F4-4DA8597F6A57}|jsquare\\jsquare.csproj|solutionrelative:jsquare\\studentdashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{91E52F6B-89ED-4084-85F4-4DA8597F6A57}|jsquare\\jsquare.csproj|c:\\users\\snafa\\source\\repos\\jsquare\\jsquare\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{91E52F6B-89ED-4084-85F4-4DA8597F6A57}|jsquare\\jsquare.csproj|solutionrelative:jsquare\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615AA5F2-B08D-42CD-98A0-00CA5E511E82}|jsquare.BL\\jsquare.BL.csproj|c:\\users\\snafa\\source\\repos\\jsquare\\jsquare.bl\\studentdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{615AA5F2-B08D-42CD-98A0-00CA5E511E82}|jsquare.BL\\jsquare.BL.csproj|solutionrelative:jsquare.bl\\studentdash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{615AA5F2-B08D-42CD-98A0-00CA5E511E82}|jsquare.BL\\jsquare.BL.csproj|c:\\users\\snafa\\source\\repos\\jsquare\\jsquare.bl\\reg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{615AA5F2-B08D-42CD-98A0-00CA5E511E82}|jsquare.BL\\jsquare.BL.csproj|solutionrelative:jsquare.bl\\reg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "jsquare\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare\\MainWindow.xaml.cs",
+              "RelativeToolTip": "jsquare\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T12:15:19.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentDash.cs",
+              "DocumentMoniker": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare.BL\\StudentDash.cs",
+              "RelativeDocumentMoniker": "jsquare.BL\\StudentDash.cs",
+              "ToolTip": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare.BL\\StudentDash.cs",
+              "RelativeToolTip": "jsquare.BL\\StudentDash.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T12:18:21.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare\\StudentDashboard.xaml.cs",
+              "RelativeDocumentMoniker": "jsquare\\StudentDashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare\\StudentDashboard.xaml.cs",
+              "RelativeToolTip": "jsquare\\StudentDashboard.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAASwC8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T12:23:24.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Reg.cs",
+              "DocumentMoniker": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare.BL\\Reg.cs",
+              "RelativeDocumentMoniker": "jsquare.BL\\Reg.cs",
+              "ToolTip": "C:\\Users\\snafa\\source\\repos\\jsquare\\jsquare.BL\\Reg.cs",
+              "RelativeToolTip": "jsquare.BL\\Reg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T12:15:34.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

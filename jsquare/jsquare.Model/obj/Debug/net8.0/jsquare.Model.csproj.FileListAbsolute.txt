@@ -1,0 +1,11 @@
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\bin\Debug\net8.0\jsquare.Model.deps.json
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\bin\Debug\net8.0\jsquare.Model.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\bin\Debug\net8.0\jsquare.Model.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\jsquare.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\jsquare.Model.AssemblyInfoInputs.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\jsquare.Model.AssemblyInfo.cs
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\jsquare.Model.csproj.CoreCompileInputs.cache
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\jsquare.Model.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\refint\jsquare.Model.dll
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\jsquare.Model.pdb
+C:\Users\snafa\source\repos\jsquare\jsquare.Model\obj\Debug\net8.0\ref\jsquare.Model.dll
